@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/modern-normalize.min.css">
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/queries.css">
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,30 +17,31 @@
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="header">
-    <div class="container header-container">
-      <nav class="header-navigation">
-        <a href="./index.html" class="header-logo link" target="_blank">
-          Web<span class="attribut">Studio</span>
-        </a>
-        <ul class="header-menu list">
-          <li class="header-item">
-            <a href="./index.html" class="header-link link current">Studio</a>
-          </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link link">Portfolio</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- CONTACTS -->
-      <address class="contact" id="Contacts">
-        <ul class="contact-menu list">
-          <li class="address-item">
+  <!-- HEADER  -->
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="header-logo link" target="_blank">
+            Web<span class="attribut">Studio</span>
+          </a>
+          <ul class="header-menu list">
+            <li class="header-item">
+              <a href="./index.html" class="header-link link current">Studio</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link link">Portfolio</a>
+            </li>
+            <li class="header-item">
+              <a href="" class="header-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+    
+        
+      <!-- CONTACTS  -->
+        <address class="contact" id="Contacts">
+          <ul class="contact-menu list">
+            <li class="address-item">
             <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li class="address-item">
@@ -49,15 +51,16 @@
       </address>
     </div>  
   </header>
+
   <main>
 
     <!-- HERO -->
-    <section id="Home" class="hero">
-      <div class="container hero-container">
-        <h1 id="home" class="hero-heading">Effective Solutions for Your Business</h1>
-        <button type="button" class="hero-btn btn" data-modal-open>Order Service</button>
-      </div>  
-    </section>
+      <section id="Home" class="hero">
+        <div class="container hero-container">
+          <h1 id="home" class="hero-heading">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-btn btn" data-modal-open>Order Service</button>
+        </div>  
+      </section>
 
     <!-- FEATURE 2 -->
     <section class="features">
@@ -113,30 +116,34 @@
     </section>
 
     <!-- SKILLS 3 -->
-    <section class="skills" id="Wedoing">
-      <div class="container container-skills">
-        <h2 class="skills-title">What are we doing</h2>
-        <ul class="skills-list list">
-          <li class="skills-item">
-            <img class="skills-img" src="./images/Rectangle1.jpg" alt="seo" width="360" height="300">
-          </li>
-          <li class="skills-item">
-            <img class="skills-img" src="./images/Rectangle2.jpg" alt="webdesign" width="360" height="300">
-          </li>
-          <li class="skills-item">
-            <img class="skills-img" src="./images/Rectangle3.jpg" alt="mob-application" width="360" height="300">
-          </li>
-        </ul>
-      </div>  
-    </section>
-
+      <section class="skills" id="Wedoing">
+        <div class="container container-skills">
+          <h2 class="skills-title">What are we doing</h2>
+          <ul class="skills-list list">
+            <li class="skills-item">
+              <img class="skills-img" src="./images/Rectangle1.jpg" alt="seo" width="360" height="300">
+            </li>
+            <li class="skills-item">
+              <img class="skills-img" src="./images/Rectangle2.jpg" alt="webdesign" width="360" height="300">
+            </li>
+            <li class="skills-item">
+              <img class="skills-img" src="./images/Rectangle3.jpg" alt="mob-application" width="360" height="300">
+            </li>
+          </ul>
+        </div>  
+      </section>
+      
     <!-- TEAM 4 -->
     <section class="team">
-      <div class="container">
+      <div class="container team-container">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list list">
           <li class="team-item">
-            <img class="team-img" src="./images/img-min-1.jpg" 
+            <img class="team-img" 
+            srcset="
+            ./images/img-min-1.jpg 1x, 
+            ./images/img-4-2x-min.jpg 2x" 
+            src="./images/img-min-1.jpg" 
             alt="Mark Guerrero" 
             width="264" 
             height="260">
@@ -176,7 +183,11 @@
             </div>  
           </li>
           <li class="team-item">
-            <img class="team-img" src="./images/img-min-2.jpg" 
+            <img class="team-img" 
+            srcset="
+            ./images/img-min-2.jpg 1x, 
+            ./images/img-3-2x-min.jpg 2x" 
+            src="./images/img-min-2.jpg" 
             alt="Tom Ford" 
             width="264" 
             height="260">
@@ -214,10 +225,14 @@
                 </li>
               </ul>
             </div>
-
+            
           </li>
           <li class="team-item">
-            <img class="team-img" src="./images/img-min-3.jpg" 
+            <img class="team-img"
+            srcset="
+            ./images/img-min-3.jpg 1x, 
+            ./images/img-2-2x-min.jpg 2x"  
+            src="./images/img-min-3.jpg" 
             alt="Camila Garcia" 
             width="264" 
             height="260">
@@ -257,7 +272,11 @@
             </div>  
           </li>
           <li class="team-item">
-            <img class="team-img" src="./images/img-min-4.jpg" 
+            <img class="team-img" 
+            srcset="
+            ./images/img-min-4.jpg 1x, 
+            ./images/img-1-2x-min.jpg 2x" 
+            src="./images/img-min-4.jpg" 
             alt="Daniel Wilson" 
             width="264" 
             height="260">
@@ -299,10 +318,10 @@
         </ul>
       </div>  
     </section>
-
+    
     <!-- CUSTOMERS 5 -->
     <section class="customers">
-      <div class="container">
+      <div class="container cust-cart">
         <h2 class="customers-title">Customers</h2>
         <ul class="customers-list">
           <li class="custumer-item">
@@ -351,6 +370,7 @@
       </div>
     </section>
   </main>
+
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-container">
@@ -495,5 +515,6 @@
     </div>
   </div>
   <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
