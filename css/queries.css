@@ -16,10 +16,16 @@
   }
 /* HEADER */
 
- .header-menu {
+.header-menu {
   display: flex;
-  gap: 40px;
+  flex-grow: 1;
+  align-items: center;
 } 
+
+.header-container {
+  max-width: 100%;
+  align-content: center;
+}
 
 .header-link {
   font-weight: 500;
@@ -64,6 +70,13 @@
   list-style: none;
 }
 
+.contact-mob {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 0;
+}
+
 .contact {
   font-style: normal;
   margin-left: auto;
@@ -73,7 +86,8 @@
 }
 .contact-menu {
   display: flex;
-  gap: 40px;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .address-link {
@@ -172,6 +186,9 @@
     gap: 72px 24px;
   }
 
+   .burger-menu {
+    display: none;
+  }
 
 }
 
@@ -273,6 +290,12 @@
     padding: 188px 0 188px
   }
 
+  /* BURGER MENU */
+
+  .burger-menu {
+    display: none;
+  }
+
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -283,6 +306,19 @@
     rgba(46, 47, 66, 0.7)
     ), url("../images/people-office-2x.jpg");
     }
+  } 
+
+  .contact {
+    font-style: normal;
+    margin-left: auto;
   }
+
+.contact-menu {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  gap: 40px;
+}
+
 
 }
