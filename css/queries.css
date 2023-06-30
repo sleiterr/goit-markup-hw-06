@@ -394,8 +394,36 @@
     padding: 0;
     gap: 40px;
   }
+
+  /* FOOTER */
+
   .footer-container {
-    width: 100%;
+    flex-wrap: unset;
+    width: unset;
+    gap: 0;
+  }
+
+  .footer-box {
+    margin-left: 0;
+    margin-right: 120px;
+  }
+
+  .footer-text {
+    min-width: 264px;
+    margin-bottom: 0;
+  }
+
+  .footer-links {
+    margin-right: 80px;
+  }
+
+  .footer-bootom {
+    margin-left: 0;
+  }
+
+
+  .footer {
+    padding: 100px 0;
   }
 
   .footer-input {
