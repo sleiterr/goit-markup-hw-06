@@ -81,7 +81,7 @@
   margin-left: auto;
 }
 .address-item {
-  
+  display: block;
 }
 .contact-menu {
   display: flex;
