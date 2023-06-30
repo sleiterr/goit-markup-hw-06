@@ -24,7 +24,6 @@
 
 .header-container {
   max-width: 100%;
-  align-content: center;
 }
 
 .header-link {
@@ -295,6 +294,7 @@
   .burger-menu {
     display: none;
   }
+  
 
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -313,12 +313,15 @@
     margin-left: auto;
   }
 
-.contact-menu {
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  gap: 40px;
-}
+  .contact-menu {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 40px;
+  }
+  .footer-container {
+    width: 100%;
+  }
 
 
 }
