@@ -58,14 +58,14 @@ button {
 
 /**========= CONTAINER ==========**/
 
-.container {
-  /* width: 100%; */
+/* .container {
+  width: 100%;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 1px solid; */
+  outline: 1px solid;
 
-}
+} */
 
 /**-----------HEADER-----------**/
 
@@ -187,7 +187,7 @@ button {
   padding: 0;
 } */
 
-.burger-menu {
+.inner-menu {
   stroke: #2e2f42;
 }
 
@@ -292,7 +292,7 @@ button {
   transition: background-color var(--transition)
 }
 
-.burger-icon {
+.menu-icon {
   fill: #F4F4FD;
 }
 
