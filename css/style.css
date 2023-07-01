@@ -65,7 +65,7 @@ button {
   margin: 0 auto;
   outline: 1px solid;
 
-} 
+} */
 
 /**-----------HEADER-----------**/
 
@@ -877,9 +877,14 @@ color: ; */
 
 .customers-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 72px 16px;
+  flex-wrap: wrap;
   /* gap: 24px; */
+}
+
+
+.customer-item {
+  width: calc((100% - 16px) / 2);
 }
 
 .customers-icon {
