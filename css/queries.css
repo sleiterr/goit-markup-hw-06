@@ -262,6 +262,10 @@
     padding-right: 16px;
   }
 
+  .open-menu-btn {
+    display: none;
+  }
+
   .team {
    padding: 120px 0;
   }
