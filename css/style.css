@@ -166,8 +166,8 @@ button {
   display: block;
   align-items: center;
   justify-content: center;
-  padding: 24px;
-  margin: auto;
+  padding: 24px 0;
+  margin-left: auto;
   background-color: transparent;
   border: none;
 }
