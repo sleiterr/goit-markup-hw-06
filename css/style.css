@@ -858,8 +858,9 @@ color: ; */
   padding: 96px 0;
   /* padding: 120px 0; */
 }
+
+
 .customer-item {
-  /* max-width: 100%; */
   /* width: calc((100% - 120px ) / 6); */
 }
 
@@ -882,10 +883,6 @@ color: ; */
   /* gap: 24px; */
 }
 
-
-.customer-item {
-  width: calc((100% - 16px) / 2);
-}
 
 .customers-icon {
   fill: currentColor;
@@ -1029,7 +1026,7 @@ color: ; */
   padding: 12px 24px;
   border: 1px solid #E7E9FC;
   border-radius: 4px;
-  background: var(--light-backgrounds);
+  background: #E7E9FC;
   color: #4d5ae5;
   cursor: pointer;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 

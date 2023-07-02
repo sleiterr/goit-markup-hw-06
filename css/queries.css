@@ -10,6 +10,13 @@
 }
 
 
+.customers-link {
+  width: 100%;
+}
+
+.custumer-item {
+  width: calc((100% - 16px) / 2);
+}
 
 @media screen and (max-width: 767px) {
   .header {
@@ -208,7 +215,7 @@
     gap: 72px 24px;
   } */
 
-   .burger-menu {
+   .inner-menu {
     display: none;
   }
 
@@ -257,9 +264,11 @@
 
 @media screen and (min-width: 1158px) {
   .container {
+    /* width: 100%; */
     max-width: 1158px;
     padding-left: 16px;
     padding-right: 16px;
+    margin: 0 auto;
   }
 
   .open-menu-btn {
