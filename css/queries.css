@@ -20,8 +20,7 @@
 }
 
 .custumer-item {
-  width: 168px;
-  /* width: calc((100% - 16px) / 2); */
+  width: calc((100% - 16px) / 2);
 }
 
 
