@@ -90,7 +90,7 @@ button {
   
 }
 
- .header-menu {
+.header-menu {
   display: none;
   gap: 40px;
 }
@@ -167,10 +167,8 @@ button {
 }
 
 .open-menu-btn {
-  display: block;
   align-items: center;
   justify-content: center;
-
   margin-left: auto;
   background-color: transparent;
   border: none;

@@ -23,6 +23,18 @@
   width: calc((100% - 16px) / 2);
 }
 
+@media screen and (min-width: 768px) {
+  .custumer-item {
+  width: calc((100% - 48px) / 3);
+  }
+  
+}
+  @media screen and (min-width: 1158px) {
+  .custumer-item {
+  width: calc((100% - 120px) / 6);
+  }
+}
+
 
 @media screen and (max-width: 427px) {
   .modal {
@@ -85,6 +97,10 @@
   .header-link:hover,
   .header-link:focus{
     color: #404bbf;
+  }
+
+  .open-menu-btn {
+    display: none;
   }
 
   .current {
@@ -193,7 +209,8 @@
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-    .hero {
+
+  .hero {
     background-color: rgba(46, 47, 66, 0.7);
     background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
